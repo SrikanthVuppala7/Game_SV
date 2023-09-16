@@ -1,0 +1,77 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    padding-top: 50px;
+width:100vw;
+height:100vh;
+/* display: flex; */
+text-align: center;
+justify-content: center;
+border:solid 5px black;
+background: url(backgroung\ img.jpg) no-repeat ;
+background-size: cover;
+}
+body h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+
+}
+body p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    padding-bottom: 20px;
+}
+button
+{
+    padding:5px;
+    text-transform: capitalize;
+    font-size: 20px;
+    background-color: rgb(132, 209, 224);
+    color:black;
+    border-radius: 2px;
+    box-shadow: inset white 1px 1px 0.5px;
+    transition: letter-spacing 0.5s;
+    letter-spacing: 1px;
+}
+button:hover
+{
+    letter-spacing: 6px;
+}
+#board
+{
+    height:350px;
+    width:350px;
+    padding-left: 20px;
+    display:flex;
+    align-content: flex-start;
+    border:2px solid green;
+    margin: 30px auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* background: url(soil1.jpg) no-repeat;
+    background-size: cover; */
+    background-color: rgb(98, 70, 35);
+}
+#board div
+{
+    height: 100px;
+    width: 100px;
+    background: url(pipe.png);
+    background-size: cover;
+}
+#board div img{
+    height:50px;
+    width:50px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
