@@ -24,7 +24,7 @@ function setMole()
     if(currMoleTile)
     currMoleTile.innerHTML="";
     let mole=document.createElement("img");
-    mole.src="./monty-mole.png";
+    mole.src="./ani.png";
      let num=getRandomtile();
      if(plantTile && plantTile.id==num)
      return;
